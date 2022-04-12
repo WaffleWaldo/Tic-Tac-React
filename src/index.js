@@ -32,10 +32,12 @@ class Square extends React.Component {
       }
 
     renderSquare(i) {
-      return <Square
-                 value={this.state.squares[i]}
-                onClick={() => this.handleClick(i)}
-            />;
+      return (
+        <Square 
+            value={this.state.squares[i]} 
+            onClick={() => this.handleClick(i)}
+        />
+      );
     }
   
     render() {
