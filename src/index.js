@@ -22,6 +22,7 @@ class Square extends React.Component {
         super(props);
         this.state = {
             squares: Array(9).fill(null),
+            xisNext: true
         };
     }
 
