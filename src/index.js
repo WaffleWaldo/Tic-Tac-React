@@ -45,7 +45,7 @@ class Square extends React.Component {
     }
   
     render() {
-      const status = 'Next player: X';
+      const status = 'Next player: ' + (this.state.xisNext ? "X" : "O");
   
       return (
         <div>
